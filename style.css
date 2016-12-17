@@ -9,12 +9,12 @@ background-color:yellow;
 }
 .problem{
     border:1px dashed black;
-margin-right: 50px;
- margin-left: 50px;   
-margin-top:20px;
- margin-bottom:20px;   
-background-color:#3dbdcc;    
-font-size:12px;
+    margin-right: 50px;
+    margin-left: 50px;   
+    margin-top:20px;
+    margin-bottom:20px;   
+    background-color:#3dbdcc;    
+    font-size:12px;
 }
 .problem-name{
     color:red;
@@ -26,6 +26,12 @@ font-size:12px;
 }
 .score{ 
     text-align:center;
+    font-size:32px;
+    color:orange;    
+    font-family: 'Gloria Hallelujah', cursive;
+    float:right;
+    margin-right:30px;
+    
 }
 body{
     background-color:grey;
@@ -55,4 +61,43 @@ font-weight:bold;
 }
 .title{
     font-family: 'Dekko', cursive;
+}
+p{
+    font-size:30px;
+    font-family: 'Amatic SC', cursive;
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+    
 }

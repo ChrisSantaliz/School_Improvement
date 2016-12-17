@@ -4,6 +4,10 @@
 * we need to provide info of what we will do to help
 
 # Designer milestones
+* with the top issues i need you to give it time stamp
+* *give it a voting bars 
+* change body color 
+* *insert images of schools
 * 
 
 # Developer milestones

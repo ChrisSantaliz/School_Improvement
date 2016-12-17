@@ -4,6 +4,8 @@
         <title>Upgrade My School</title>
         <link rel="stylesheet" href="style.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
@@ -26,7 +28,7 @@
          <button class="button">Vote</button>
          <h2 class="score">5</h2>
          <p class= "field-title">Problem</p>
-         <h2 class="problem-name"><span class="description">Problem:</span>Bathroom condtions are terrible</h2>
+         <h2 class="problem-name"><span class="description">Bathroom condtions are terrible</h2>
         <p class= "field-title">School</p>
          <h2 class="school-name">John Bowne High School</h2>
          <img class="school" src="https://thenypost.files.wordpress.com/2013/08/100711-johnbownehighschool-rh01101403-300x300.jpg" height="500" width="800">
@@ -42,33 +44,34 @@
      
      <div id="recent-issues">
     
-     <div class="problem">
-         <button class="button">Vote</button>
-         <h2 class="score">5</h2>
-         <p class= "field-title">Problem</p>
-         <h2 class="problem-name">Gym benches break down on students</h2>
-         <p class= "field-title">School</p>
-         <h2 class="school-name">Uncommon Collegiate Charter High School </h2>
-          <img id="change" src="http://static2.politico.com/dims4/default/7183a6a/2147483647/resize/1160x%3E/quality/90/?url=http%3A%2F%2Fstatic.politico.com%2Fcapny%2Fsites%2Fdefault%2Ffiles%2Fa%20-%20UncommonColliage_0.png">
-      </div>
+         <div class="problem">
+             <button class="button">Vote</button>
+             <h2 class="score">5</h2>
+             <p class= "field-title">Problem</p>
+             <h2 class="problem-name">Gym benches break down on students</h2>
+             <p class= "field-title">School</p>
+             <h2 class="school-name">Uncommon Collegiate Charter High School </h2>
+              <img id="change" src="http://static2.politico.com/dims4/default/7183a6a/2147483647/resize/1160x%3E/quality/90/?url=http%3A%2F%2Fstatic.politico.com%2Fcapny%2Fsites%2Fdefault%2Ffiles%2Fa%20-%20UncommonColliage_0.png">
+          </div>
+          
+         
+      
      </div>
 
 </div>
 
 <div class="section">
-    <h1 class="section-heading">Post on Issue for your School</h1>
+    <h1 class="section-heading">Post an Issue for your School</h1>
     <p id="color"> Please submit your problem</p>
     <form action="demo_form.asp">
-      School name: <input type="text" name="fname"><br>
+      School name: <input id="school-field" type="text" name="fname"><br>
       <br>
-      Problem: <input type="text" name="lname"><br>
+      Problem: <input id="problem-field" type="text" name= "lname"><br>
      <button id="submit">submit</button>
     </form>
 
 
 </div>
-
- 
  
  </body>
  
