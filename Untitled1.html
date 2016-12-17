@@ -9,16 +9,20 @@
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-<form>
+<form id="newIssue" onsubmit="return false">
   School Name:<br>
-  <input type="text" id="schoolName" value="Type your school name">
+  <input type="text" id="schoolName" placeholder="Type your school name">
   <br>
   Issue:<br>
-  <input type="text" id="issues" value="Description of the Issue">
+  <input type="text" id="issues" placeholder="Description of the Issue">
   <br><br>
-  <input type="submit" value="Submit">
+  <input id="submit" type="button" value="Submit">
+  
+  
+  
+  
 </form> 
-
+<div id="issuelist"></div>
 
     </body>
 </html>

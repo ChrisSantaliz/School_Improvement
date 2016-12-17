@@ -1,9 +1,42 @@
 .section{
-    border-style:solid;
-    
+    border:1px solid black;
+      
 }
 .section-heading{
     text-align: center;
+background-color:yellow;
+    
 }
-
+.problem{
+    border:1px dashed black;
+margin-right: 50px;
+ margin-left: 50px;   
+margin-top:20px;
+ margin-bottom:20px;   
+background-color:#3dbdcc;    
+font-size:12px;
+    
+}
+.problem-name{
+    color:red;
+    margin-left:10px;
+}
+.school-name{
+    color:blue;
+    margin-left:10px;
+}
+.score{ 
+    text-align:center;
+}
+body{
+    background-color:grey;
+}
+.field-title{
+font-size:20px;    
+text-decoration: underline ;
+font-weight:bold;
+}
+#color{
+    color:red;
+}
 
