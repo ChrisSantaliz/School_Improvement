@@ -3,22 +3,27 @@
     <head>
         <title>Upgrade My School</title>
         <link rel="stylesheet" href="style.css" type="text/css" />
-        <script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
         <script type="text/javascript" src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet">
+
     </head>
     <body>
-<h1>Making Schools Better For The Future</h1>
-   <p>This website is to promote changes to schools that drastically need better equipment and new refurbish places to keep going for the future of NYC.</p> 
+        <h1 class="title">Making Schools Better For The Future</h1>
+       <p>This website is to promote changes to schools that drastically need better equipment and new refurbish places to keep going for the future of NYC.</p> 
    
 
 
  <div class="section">
+    
      <h1 class="section-heading">Top Issues</h1>
+    <div id="top-issues"> 
      
      <div class="problem">
+         <button class="button">Vote</button>
          <h2 class="score">5</h2>
          <p class= "field-title">Problem</p>
          <h2 class="problem-name"><span class="description">Problem:</span>Bathroom condtions are terrible</h2>
@@ -26,33 +31,39 @@
          <h2 class="school-name">John Bowne High School</h2>
          <img class="school" src="https://thenypost.files.wordpress.com/2013/08/100711-johnbownehighschool-rh01101403-300x300.jpg" height="500" width="800">
      </div>
-    
+     
+    </div>
+        </div>
 
- </div>
+
 
   <div class="section">
      <h1 class="section-heading">Recent Issues</h1>
      
+     <div id="recent-issues">
     
      <div class="problem">
+         <button class="button">Vote</button>
          <h2 class="score">5</h2>
          <p class= "field-title">Problem</p>
          <h2 class="problem-name">Gym benches break down on students</h2>
          <p class= "field-title">School</p>
          <h2 class="school-name">Uncommon Collegiate Charter High School </h2>
-          <img src="http://static2.politico.com/dims4/default/7183a6a/2147483647/resize/1160x%3E/quality/90/?url=http%3A%2F%2Fstatic.politico.com%2Fcapny%2Fsites%2Fdefault%2Ffiles%2Fa%20-%20UncommonColliage_0.png">
-  
+          <img id="change" src="http://static2.politico.com/dims4/default/7183a6a/2147483647/resize/1160x%3E/quality/90/?url=http%3A%2F%2Fstatic.politico.com%2Fcapny%2Fsites%2Fdefault%2Ffiles%2Fa%20-%20UncommonColliage_0.png">
+      </div>
      </div>
+
 </div>
 
 <div class="section">
-<h1 class="section-heading">Post on Issue for your School</h1>
-<p id="color"> Please submit your problem</p>
-<form action="demo_form.asp">
-  School name: <input type="text" name="fname"><br>
-  Problem: <input type="text" name="lname"><br>
-  <input type="submit" value="Submit">
-</form>
+    <h1 class="section-heading">Post on Issue for your School</h1>
+    <p id="color"> Please submit your problem</p>
+    <form action="demo_form.asp">
+      School name: <input type="text" name="fname"><br>
+      <br>
+      Problem: <input type="text" name="lname"><br>
+     <button id="submit">submit</button>
+    </form>
 
 
 </div>

@@ -1,4 +1,4 @@
- var issues = [{"schoolname":"Queens voc","issuesDescription":"Trash","timestamp":1482001117419,"id":"issue1","votes":0},{"schoolname":"Queens voc","issuesDescription":"Trash","timestamp":1482001119651,"id":"issue2","votes":0},{"schoolname":"Queens voc","issuesDescription":"Trash","timestamp":1482001119818,"id":"issue3","votes":0}]
+ var issues = [{"schoolName":"Queens voc","issueDescription":"Trash","timestamp":1482001117419,"id":"issue1","votes":0},{"schoolName":"Queens voc","issueDescription":"Trash","timestamp":1482001119651,"id":"issue2","votes":0},{"schoolName":"Queens voc","issueDescription":"Trash","timestamp":1482001119818,"id":"issue3","votes":0}]
  
  $(document).ready(function(){
    
@@ -21,6 +21,23 @@
       updatelist() 
    });
 
+   $("#issuelist").on("click","button",function(event) {
+    // get the issue id
+    var id = $(this).attr("data-id") ;
+    // loop through the issues
+    $.each (issues,function(index,issue){
+     //increase votes by one
+     
+    if (issue.id == id ) {
+     issue.votes= issue.votes+1
+    }
+    
+    })
+    
+     updatelist()
+     console.log (id)
+   })
+
      updatelist() 
 });
 
@@ -28,8 +45,10 @@ function updatelist() {
     $("#issuelist").html("")
      $.each(issues,
       function (index, issue) {
-          var html= "<div>" + issue.issuesDescription + "</div>";
+          var html= "<div>" + issue.schoolName + "</div>";
+          html += "<p>" + issue.issueDescription + "</p>";
+          html += "<button data-id=\""+issue.id+"\"> Vote on this issue : " + issue.votes + "</button>";
           $("#issuelist").append(html)
-      }
-          )
+      });
 }
+
